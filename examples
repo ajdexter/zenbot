@@ -1,0 +1,3 @@
+zenbot trade --paper --enable_profit_stop_pct=10 --profit_stop_pct=4 --trend_ema=36 --sell_rate=-0.006 --currency_capital=50
+zenbot trade --paper gdax.BTC-USD --strategy=macd --enable_profit_stop_pct=10 --profit_stop_pct=4 --trend_ema=36 --sell_rate=-0.006 --currency_capital=20
+zenbot trade --period=10m --min_periods=60 --trend_ema=30 --neutral_rate=0.15 gdax.BTC-USD --paper // This was recommended on the github site.
